@@ -1,0 +1,10 @@
+import db from "../src/conn.js";
+import { schemaVendaBase } from './schemas.js'
+
+export default async function buy(entrada) {
+  const venda = await schemaVendaBase.validateAsync(entrada)
+  const collection = db.collection("vendas");
+  await collection.insertOne(venda);
+  return venda;
+}
+
