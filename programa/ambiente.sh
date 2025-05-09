@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "PATH="$PATH
+echo "TZ="$TZ
+echo "NODE_ENV="$NODE_ENV
+echo "NODE_CONFIG_DIR="$NODE_CONFIG_DIR
+echo "CONSOLA_LEVEL="$CONSOLA_LEVEL
