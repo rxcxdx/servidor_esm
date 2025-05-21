@@ -1,0 +1,35 @@
+{
+  "name": "servidor_esm",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@faker-js/faker": "^9.7.0",
+    "@inquirer/prompts": "^7.4.0",
+    "chalk": "^5.4.1",
+    "check-types": "^11.2.3",
+    "cli-table3": "^0.6.5",
+    "config": "^3.3.12",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.13",
+    "decimal.js": "^10.5.0",
+    "delay": "^6.0.0",
+    "eslint": "9.23.0",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "globals": "^16.0.0",
+    "jasmine": "^5.7.1",
+    "lodash-es": "^4.17.21",
+    "mongodb": "^6.16.0",
+    "morgan": "^1.10.0",
+    "nanoid": "^5.1.5",
+    "sequelize": "^6.37.7",
+    "sqlite3": "5.1.7",
+    "validator": "^13.15.0",
+    "yargs": "^17.7.2",
+    "yup": "^1.6.1"
+  },
+  "scripts": {
+    "test": "jasmine"
+  }
+}
