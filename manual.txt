@@ -1,0 +1,7 @@
+found 0 vulnerabilities
+-------------------------
+CONGELADOS:
+"sqlite3": "5.1.7"
+-------------------------
+npm test
+npx jasmine calcSubtotalBeanSpec.js
