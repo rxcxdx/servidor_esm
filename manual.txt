@@ -1,0 +1,9 @@
+found 0 vulnerabilities
+-------------------------
+CONGELADOS:
+"sqlite3": "5.1.7"
+"mongodb": "6.16.0",
+-------------------------
+npm test
+npx jasmine spec.js
+
