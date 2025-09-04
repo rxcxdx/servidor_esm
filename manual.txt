@@ -1,0 +1,6 @@
+congelados
+"sqlite3": "5.1.7"
+"mongodb": "6.16.0",
+-------------------------
+npm test
+npm run formatar

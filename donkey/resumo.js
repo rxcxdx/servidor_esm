@@ -1,0 +1,10 @@
+import { MongoClient } from 'mongodb'
+const client = new MongoClient('mongodb://localhost:27017')
+await client.connect()
+const db = client.db('app_database')
+const collection = db.collection('vendas')
+const linhas = await collection.countDocuments()
+console.log('linhas coleção vendas=', linhas)
+const estatistica = await db.stats()
+console.log(estatistica)
+await client.close()
