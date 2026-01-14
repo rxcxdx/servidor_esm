@@ -1,0 +1,9 @@
+{
+  "isMorgan": false,
+  "logConfig": {
+    "level": "error",
+    "silentConsole": true,
+    "silentFile": false
+  }
+  
+}
